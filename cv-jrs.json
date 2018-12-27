@@ -433,15 +433,15 @@
   "languages": [
     {
       "language": "Français",
-      "fluency": "Native speaker"
+      "fluency": "Langue maternelle"
     },
     {
       "language": "Anglais",
-      "fluency": "Fluent"
+      "fluency": "Courant"
     },
     {
       "language": "Espagnol",
-      "fluency": "Basic"
+      "fluency": "Notions"
     }
   ]
 }
