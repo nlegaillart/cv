@@ -25,7 +25,7 @@
   "work": [
     {
       "company": "MyBestPro (groupe Vivendi)",
-      "website": "https://www.mybestpro.com",
+      "website": "http://www.mybestpro.com",
       "position": "Administrateur Système",
       "location": {
         "city": "Paris",
@@ -35,7 +35,10 @@
       "startDate": "2014-02-17",
       "summary": "MyBestPro est une société mettant en relation des professionnels et des particuliers.",
       "highlights": [
-        "Maintenance des plateformes Wengo, Astrocenter, Habitatpresto, RDVMedicaux, Bordas et JuriTravail"
+        "Maintenance des plateformes Wengo, Astrocenter, Habitatpresto, RDVMedicaux, Bordas et JuriTravail",
+	"Maintenance et installation des environnements developpeur (Machines virtuelles CentOS)",
+	"Accompagnement des développeurs",
+	"Migration des sites de CentOS 6 vers CentOS 7, et de Apache vers Nginx"
       ]
     },
     {
