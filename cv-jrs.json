@@ -397,6 +397,8 @@
       "keywords": [
         "VMWare ESX/ESXi",
         "Xen",
+	"KVM",
+	"LXC",
         "qemu",
         "Oracle VirtualBox",
         "Zones Solaris",
