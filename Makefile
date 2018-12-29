@@ -1,9 +1,10 @@
 all: build
 build:
+	hackmyresume build cv-jrs.json to out/nlegaillart_cv.txt -o myoptions.json 
 	hackmyresume build cv-jrs.json to out/nlegaillart_cv.all -o myoptions.json -t jsonresume-theme-curzy-custom
-	cd out && soffice --infilter="writer_pdf_import" --convert-to doc nlegaillart_cv.pdf 
-	cd out && soffice --infilter="writer_pdf_import" --convert-to docx nlegaillart_cv.pdf 
-	cd out && soffice --infilter="writer_pdf_import" --convert-to rtf nlegaillart_cv.pdf 
+	cd out && libreoffice --headless --convert-to doc:"MS Word 97 Vorlage" nlegaillart_cv.html
+	cd out && libreoffice --headless --convert-to docx nlegaillart_cv.doc
+	cd out && libreoffice --headless --convert-to rtf nlegaillart_cv.doc
 
 install:
 	cd jsonresume-theme-curzy-custom && npm install
