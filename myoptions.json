@@ -2,6 +2,8 @@
   "sectionTitles": {
     "employment": "Expérience",
     "skills": "Compétences",
-    "education": "Formation"
+    "education": "Formation",
+    "interests": "Hobbies",
+    "service": "Activités personnelles"
   }
 }
