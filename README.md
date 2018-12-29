@@ -1,4 +1,4 @@
-Here is my resume in json-fresh and json-jrs formats.
+Here is my résumé in json-fresh and json-jrs formats.
 
 To generate other formats you will need:
  * [NodeJS](https://nodejs.org/)
