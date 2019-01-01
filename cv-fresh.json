@@ -38,7 +38,7 @@
       "summary": "MyBestPro est une société mettant en relation des professionnels et des particuliers.",
       "highlights": [
         "Maintenance des plateformes Wengo, Astrocenter, Habitatpresto, RDVMedicaux, Bordas et JuriTravail",
-        "Maintenance et installation des environnements developpeur (Machines virtuelles CentOS)",
+        "Maintenance et installation des environnements développeur (Machines virtuelles CentOS) et des serveurs en data-center",
         "Accompagnement des développeurs",
         "Migration des sites de CentOS 6 vers CentOS 7, et de Apache vers Nginx"
       ]
