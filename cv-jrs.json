@@ -24,12 +24,12 @@
   },
   "work": [
     {
-      "company": "MyBestPro (groupe Vivendi)",
+      "company": "MyBestPro",
       "website": "http://www.mybestpro.com",
       "position": "Administrateur Système",
       "location": {
-        "city": "Paris",
-        "postalCode": "75008",
+        "city": "Clichy",
+        "postalCode": "92110",
         "countryCode": "FR"
       },
       "startDate": "2014-02-17",
