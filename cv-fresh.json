@@ -258,7 +258,6 @@
   "skills": [
     {
       "name": "Systèmes UNIX",
-      "level": "Master",
       "keywords": [
         "Red Hat/CentOS",
         "Debian/Ubuntu",
@@ -268,7 +267,6 @@
     },
     {
       "name": "Systèmes Microsoft",
-      "level": "intermediate",
       "keywords": [
         "Windows Server",
         "Windows 7"
@@ -276,7 +274,6 @@
     },
     {
       "name": "Languages",
-      "level": "intermediate",
       "keywords": [
         "C",
         "PHP",
@@ -289,7 +286,6 @@
     },
     {
       "name": "Bases de données",
-      "level": "intermediate",
       "keywords": [
         "MySQL",
         "PostgreSQL",
@@ -300,7 +296,6 @@
     },
     {
       "name": "Surveillance/Métrologie",
-      "level": "Master",
       "keywords": [
         "Nagios/Icinga",
         "Zabbix",
@@ -312,7 +307,6 @@
     },
     {
       "name": "Web",
-      "level": "Master",
       "keywords": [
         "Apache",
         "Tomcat",
@@ -324,7 +318,6 @@
     },
     {
       "name": "Mail",
-      "level": "Master",
       "keywords": [
         "QMail",
         "Postfix",
@@ -338,7 +331,6 @@
     },
     {
       "name": "FTP",
-      "level": "Master",
       "keywords": [
         "vsftpd",
         "ProFTPd",
@@ -347,7 +339,6 @@
     },
     {
       "name": "DNS",
-      "level": "Master",
       "keywords": [
         "bind9",
         "MyDNS-NG"
@@ -355,7 +346,6 @@
     },
     {
       "name": "Redondance",
-      "level": "Master",
       "keywords": [
         "keepalived",
         "CARP",
@@ -366,7 +356,6 @@
     },
     {
       "name": "Pare-feux",
-      "level": "Master",
       "keywords": [
         "Netfilter/IP Tables",
         "firewalld",
@@ -377,7 +366,6 @@
     },
     {
       "name": "Gestion de sources",
-      "level": "Master",
       "keywords": [
         "CVS",
         "SVN",
@@ -386,7 +374,6 @@
     },
     {
       "name": "Déploiement",
-      "level": "Master",
       "keywords": [
         "Fabric",
         "SaltStack",
@@ -396,7 +383,6 @@
     },
     {
       "name": "Virtualisation/Isolation",
-      "level": "Master",
       "keywords": [
         "VMWare ESX/ESXi",
         "Xen",
@@ -412,7 +398,6 @@
     },
     {
       "name": "Divers",
-      "level": "Master",
       "keywords": [
         "NFS",
         "Samba",
