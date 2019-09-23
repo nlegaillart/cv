@@ -5,7 +5,7 @@ const birthDate = (birth) => {
   const out = [];
   if (birth && Object.keys(birth).length) {
     if (birth.place) {
-      out.push(`<div> N&eacute; en ${birth.place}`);
+      out.push(`<div> N&eacute; &agrave; ${birth.place}`);
     }
     if (birth.place && birth.state) {
       out.push(` (${birth.state})`);
