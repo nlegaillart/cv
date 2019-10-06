@@ -52,7 +52,7 @@
       },
       "startDate": "2011-07-04",
       "endDate": "2013-09-27",
-      "summary": "Spécialisée dans les avis clients et la lutte contre la fraude, FIA-NET à lancé en 2011 Kwixo, une solution de paiment sécurisé pour le compte du Crédit Agricole. C'est dans ce cadre que j'ai été embauché pour maintenir l'infrastructure associée, ainsi que la plateforme historique.",
+      "summary": "Spécialisée dans les avis clients et la lutte contre la fraude, FIA-NET à lancé en 2011 Kwixo, une solution de paiement sécurisé pour le compte du Crédit Agricole. C'est dans ce cadre que j'ai été embauché pour maintenir l'infrastructure associée, ainsi que la plateforme historique.",
       "highlights": [
         "Maintenance de la plateforme Kwixo: 20 serveurs Solaris 10 et CentOS, répartis sur deux sites, applicatifs utilisant Java/Apache Tomcat/Sybase/CouchDB;",
         "Maintenance de la plateforme \"historique\" FIA-NET (Sceau de confiance, Certissim): Serveurs Solaris 9 puis Red Hat/VMWare ESXi, répartis sur deux sites, applicatifs utilisant PHP/Apache/Sybase.",
@@ -70,7 +70,7 @@
       },
       "startDate": "2010-07-19",
       "endDate": "2011-06-20",
-      "summary": "Cloudmak Lab fourni une solution de filtrage Antivirus/Spam pour le compte d'opérateurs. Orange l'a choisi en 2010 pour gérer son service SMTP et assurer la migration depuis l'ancien prestataire ATOS.",
+      "summary": "Cloudmak Lab fournit une solution de filtrage Antivirus/Antispam pour le compte d'opérateurs. Orange l'a choisi en 2010 pour gérer son service SMTP et assurer la migration depuis l'ancien prestataire ATOS.",
       "highlights": [
         "Installation et gestion de la plateforme de filtrage e-mail Orange/Wanadoo France (60 serveurs), support 4ème niveau, configuration/maintenance du Monitoring (Nagios/Centreon) et des load-balancers (F5 BigIP).",
         "Installation de la plateforme de filtrage e-mail de laposte.net (10 serveurs)"
@@ -105,7 +105,7 @@
       },
       "startDate": "2005-11-01",
       "endDate": "2007-11-29",
-      "summary": "Boonty était une société éditant des jeux casual qui s'est ensuite essayé au jeu communautaire freemium avec café.com. Elle a depuis été racheté par Nexway.",
+      "summary": "Boonty était une société éditant des jeux casual qui s'est ensuite essayé au jeu communautaire freemium avec café.com. Elle a depuis été rachetée par Nexway.",
       "highlights": [
         "Installation/Maintenance de serveurs (Linux Debian): Mail (QMail, Postfix), Web (Apache), Bases de données (MySQL), Backoffice (bugtracker, wiki, CRM...) et monitoring (Nagios/Munin);",
         "Relation avec les équipes techniques et marketing;",
@@ -122,7 +122,7 @@
       },
       "startDate": "2005-09-12",
       "endDate": "2005-10-10",
-      "summary": "Intérim: Sur le site de Vert-Saint-Denis, j'ai developpé divers outils de gestion, en vu d'être incorporé ensuite dans l'équipe de développement en charge de l'automatisation. Je n'ai pas donné suite, ayant l'opportunité de devenir Administrateur Système chez Boonty.",
+      "summary": "Intérim: Sur le site de Vert-Saint-Denis, j'ai développé divers outils de gestion, en vu d'être incorporé ensuite dans l'équipe de développement en charge de l'automatisation. Je n'ai pas donné suite, ayant l'opportunité de devenir Administrateur Système chez Boonty.",
       "highlights": [
         "Conception d'une application de facturation sur intranet (programmation PHP/PostgreSQL/Oracle);",
         "Conception de scripts de reporting (programmation PHP/PostgreSQL/Oracle)."
@@ -138,7 +138,7 @@
       },
       "startDate": "2000-11-13",
       "endDate": "2004-11-07",
-      "summary": "Hébergeur de sites web et e-mail dont le siège était situé à Boulogne-Billancourt, et l'équipe technique à Dijon. c'est là que j'ai débuté en faisant du support technique, et que j'ai pu faire mes premières armes en administration système.",
+      "summary": "Hébergeur de sites web et e-mail dont le siège était situé à Boulogne-Billancourt, et l'équipe technique à Dijon. C'est là que j'ai débuté en faisant du support technique, et que j'ai pu faire mes premières armes en administration système.",
       "highlights": [
         "Support utilisateur (assistance technique HTML et PHP, gestion des comptes utilisateurs);",
         "Surveillance de contenu;",
@@ -155,10 +155,10 @@
       },
       "startDate": "1999-08-09",
       "endDate": "2000-09-29",
-      "summary": "Situé à Tonnerre en Bourgogne-Franche-Comté, J2T était une usine qui assemblait des magnétoscopes VHS et fabriquait les têtes de lecture de ceux-ci pour la compte de Thomson Multimedia.",
+      "summary": "Situé à Tonnerre en Bourgogne-Franche-Comté, J2T était une usine qui assemblait des magnétoscopes VHS et fabriquait leurs têtes de lecture pour le compte de Thomson Multimedia.",
       "highlights": [
         "Conception d'un automate de test de fin de chaine en équipe avec un automaticien (Programmation en C de la partie analyse de signal infrarouge);",
-        "Inventaire du parc informatique et création d'une base de données sous MS Access permettant de le gérer."
+        "Inventaire du parc informatique et création d'une base de données sous MS Access permettant de gérer celui-ci."
       ]
     },
     {
@@ -174,7 +174,7 @@
       "endDate": "1999-06-01",
       "summary": "Stage en cours de formation",
       "highlights": [
-        "Mise en place d'un serveur Linux pour utilisation pédagogique (Installation d'une distribution Mandrake et intégration/partage avec les postes utilisateurs sous Windows NT4)."
+        "Mise en place d'un serveur Linux pour utilisation pédagogique (installation d'une distribution Mandrake et intégration/partage avec les postes utilisateurs sous Windows NT4)."
       ]
     }
   ],
@@ -199,7 +199,7 @@
     "website": "http://web.archive.org/web/20030418090130/http://phpinfo.ifrance.com:80/phpinfo/index.php?section=pages/pip&page=index&theme=marble1",
     "startDate": "2000",
     "endDate": "2004",
-    "summary": "Mise en place d'un serveur  web/ftp/mail personnel sous FreeBSD; création d'une bibliothèque PHP permettant de développer rapidement des sites web légers."
+    "summary": "Mise en place d'un serveur web/ftp/mail personnel sous FreeBSD; création d'une bibliothèque PHP permettant de développer rapidement des sites web légers."
   },
   {
     "organization": "Train Miniature Avallonnais",
