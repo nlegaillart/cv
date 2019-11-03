@@ -1,4 +1,4 @@
-Here is my résumé in json-fresh and json-jrs formats.
+Here is my french resume in json-fresh and json-jrs formats.
 
 To generate other formats you will need:
  * [NodeJS](https://nodejs.org/)
@@ -9,5 +9,5 @@ To generate other formats you will need:
 
 *Important*: On the first use run "make install" to install required Node modules in theme directory.
 
-Included jsonresume theme is a modified Version of [Curzy theme](https://github.com/Curzy/jsonresume-theme-curzy) wich is a mdified version of Stack Overflow theme for jsonresume ([jsonresume-theme-stackoverflow](https://github.com/francescoes/jsonresume-theme-stackoverflow))
+Included jsonresume theme is a modified Version of [Curzy theme](https://github.com/Curzy/jsonresume-theme-curzy) which is a modified version of Stack Overflow theme for jsonresume ([jsonresume-theme-stackoverflow](https://github.com/francescoes/jsonresume-theme-stackoverflow))
 
