@@ -36,7 +36,7 @@
       "summary": "MyBestPro est une société mettant en relation des professionnels et des particuliers.",
       "highlights": [
         "Maintenance des plateformes Wengo, Astrocenter, Habitatpresto, RDVMedicaux, Bordas et JuriTravail",
-	"Maintenance et installation des environnements développeur (Machines virtuelles CentOS) et des serveurs en data-center",
+	"Maintenance et installation des environnements développeur (Machines virtuelles VirtualBox) et des serveurs physiques et virtuels (Xen, KVM, LXC, Docker) en data-center et sur Amazon Web Services",
 	"Accompagnement des développeurs",
 	"Migration des sites de CentOS 6 vers CentOS 7, et de Apache vers Nginx"
       ]
@@ -52,7 +52,7 @@
       },
       "startDate": "2011-07-04",
       "endDate": "2013-09-27",
-      "summary": "Spécialisée dans les avis clients et la lutte contre la fraude, FIA-NET à lancé en 2011 Kwixo, une solution de paiement sécurisé pour le compte du Crédit Agricole. C'est dans ce cadre que j'ai été embauché pour maintenir l'infrastructure associée, ainsi que la plateforme historique.",
+      "summary": "Spécialisée dans les avis clients et la lutte contre la fraude, FIA-NET a lancé en 2011 Kwixo, une solution de paiement sécurisé pour le compte du Crédit Agricole. C'est dans ce cadre que j'ai été embauché pour maintenir l'infrastructure associée, ainsi que la plateforme historique.",
       "highlights": [
         "Maintenance de la plateforme Kwixo: 20 serveurs Solaris 10 et CentOS, répartis sur deux sites, applicatifs utilisant Java/Apache Tomcat/Sybase/CouchDB;",
         "Maintenance de la plateforme \"historique\" FIA-NET (Sceau de confiance, Certissim): Serveurs Solaris 9 puis Red Hat/VMWare ESXi, répartis sur deux sites, applicatifs utilisant PHP/Apache/Sybase.",
@@ -309,8 +309,7 @@
         "Tomcat",
         "Nginx",
         "Squid",
-        "Varnish",
-        "IIS"
+        "Varnish"
       ]
     },
     {
@@ -345,7 +344,6 @@
       "name": "Redondance",
       "keywords": [
         "keepalived",
-        "CARP",
         "F5 BigIP",
         "Radware Alteon",
         "heartbeat"
