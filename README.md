@@ -1,4 +1,4 @@
-Here is my french resume in json-fresh and json-jrs formats.
+Here is my French resume in json-fresh and json-jrs formats.
 
 To generate other formats you will need:
  * [NodeJS](https://nodejs.org/)
