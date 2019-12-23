@@ -70,7 +70,7 @@
       },
       "startDate": "2010-07-19",
       "endDate": "2011-06-20",
-      "summary": "Cloudmak Lab fournit une solution de filtrage Antivirus/Antispam pour le compte d'opérateurs. Orange l'a choisi en 2010 pour gérer son service SMTP et assurer la migration depuis l'ancien prestataire ATOS.",
+      "summary": "Cloudmak Labs fournit une solution de filtrage Antivirus/Antispam pour le compte d'opérateurs. Orange l'a choisi en 2010 pour gérer son service SMTP et assurer la migration depuis l'ancien prestataire ATOS.",
       "highlights": [
         "Installation et gestion de la plateforme de filtrage e-mail Orange/Wanadoo France (60 serveurs), support 4ème niveau, configuration/maintenance du Monitoring (Nagios/Centreon) et des load-balancers (F5 BigIP).",
         "Installation de la plateforme de filtrage e-mail de laposte.net (10 serveurs)"
