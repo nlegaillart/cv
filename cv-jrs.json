@@ -6,9 +6,9 @@
     "phone": "+33618540718",
     "email": "nicolas@legaillart.fr",
     "location": {
-      "address": "Résidence François Leroux",
-      "city": "Orsay",
-      "postalCode": "91400",
+      "address": "62, Avenue de la Martellière",
+      "city": "Saint-Sébastien-sur-Loire",
+      "postalCode": "44230",
       "countryCode": "FR"
     },
     "birth": {
@@ -24,6 +24,23 @@
   },
   "work": [
     {
+      "company": "Néocom Multimédia",
+      "website": "https://www.neocom.fr",
+      "position": "Administrateur Système",
+      "location": {
+        "city": "Rezé",
+        "postalCode": "44400",
+        "countryCode": "FR"
+      },
+      "startDate": "2020-06-01",
+      "summary": "Néocom édite des solutions autour de la téléphonie (campagnes, conférences, etc.)",
+      "highlights": [
+        "Maintenance des plateformes VMS Online, 3665, Conférence téléphonique, Alerte Évenement",
+	"Maintenance et installation des des serveurs physiques et virtuels (Xen, Proxmox , OpenStack) en data-center et sur OVHcloud",
+	"Accompagnement des développeurs"
+      ]
+    },
+    {
       "company": "MyBestPro",
       "website": "http://www.mybestpro.com",
       "position": "Administrateur Système",
@@ -33,6 +50,7 @@
         "countryCode": "FR"
       },
       "startDate": "2014-02-17",
+      "endDate": "2020-03-31",
       "summary": "MyBestPro est une société mettant en relation des professionnels et des particuliers.",
       "highlights": [
         "Maintenance des plateformes Wengo, Astrocenter, Habitatpresto, RDVMedicaux, Bordas et JuriTravail",

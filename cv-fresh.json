@@ -1,408 +1,408 @@
 {
-  "basics": {
-    "name": "Nicolas Le Gaillart",
-    "label": "Administrateur Systèmes et Réseaux",
-    "website": "https://nicolas.legaillart.fr",
-    "phone": "+33618540718",
+  "name": "Nicolas Le Gaillart",
+  "info": {
+    "label": "Administrateur Systèmes et Réseaux"
+  },
+  "contact": {
     "email": "nicolas@legaillart.fr",
-    "location": {
-      "address": "Résidence François Leroux",
-      "city": "Orsay",
-      "postalCode": "91400",
-      "countryCode": "FR"
-    },
-    "birth": {
-      "place": "Auxerre",
-      "state": "89",
-      "date": "1975"
-    },
-    "profiles": [
+    "phone": "+33618540718",
+    "website": "https://nicolas.legaillart.fr"
+  },
+  "meta": {
+    "format": "FRESH@^1.0.0-beta",
+    "modified": "2020-12-01T22:14:08.193Z"
+  },
+  "location": {
+    "city": "Saint-Sébastien-sur-Loire",
+    "country": "FR",
+    "code": "44230",
+    "address": "62, Avenue de la Martellière"
+  },
+  "employment": {
+    "history": [
       {
-        "network": "LinkedIn",
-        "username": "nicolaslegaillart",
-        "url": "https://www.linkedin.com/in/nicolaslegaillart"
+        "position": "Administrateur Système",
+        "employer": "Néocom Multimédia",
+        "summary": "Néocom édite des solutions autour de la téléphonie (campagnes, conférences, etc.)",
+        "current": true,
+        "start": "2020-06-01",
+        "url": "https://www.neocom.fr",
+        "keywords": [],
+        "highlights": [
+          "Maintenance des plateformes VMS Online, 3665, Conférence téléphonique, Alerte Évenement",
+          "Maintenance et installation des des serveurs physiques et virtuels (Xen, Proxmox , OpenStack) en data-center et sur OVHcloud",
+          "Accompagnement des développeurs"
+        ]
+      },
+      {
+        "position": "Administrateur Système",
+        "employer": "MyBestPro",
+        "summary": "MyBestPro est une société mettant en relation des professionnels et des particuliers.",
+        "start": "2014-02-17",
+        "end": "2020-03-31",
+        "url": "http://www.mybestpro.com",
+        "keywords": [],
+        "highlights": [
+          "Maintenance des plateformes Wengo, Astrocenter, Habitatpresto, RDVMedicaux, Bordas et JuriTravail",
+          "Maintenance et installation des environnements développeur (Machines virtuelles VirtualBox) et des serveurs physiques et virtuels (Xen, KVM, LXC, Docker) en data-center et sur Amazon Web Services",
+          "Accompagnement des développeurs",
+          "Migration des sites de CentOS 6 vers CentOS 7, et de Apache vers Nginx"
+        ]
+      },
+      {
+        "position": "Administrateur Système",
+        "employer": "FIA-NET (groupe Crédit Agricole)",
+        "summary": "Spécialisée dans les avis clients et la lutte contre la fraude, FIA-NET a lancé en 2011 Kwixo, une solution de paiement sécurisé pour le compte du Crédit Agricole. C'est dans ce cadre que j'ai été embauché pour maintenir l'infrastructure associée, ainsi que la plateforme historique.",
+        "start": "2011-07-04",
+        "end": "2013-09-27",
+        "url": "http://www.fia-net-group.com",
+        "keywords": [],
+        "highlights": [
+          "Maintenance de la plateforme Kwixo: 20 serveurs Solaris 10 et CentOS, répartis sur deux sites, applicatifs utilisant Java/Apache Tomcat/Sybase/CouchDB;",
+          "Maintenance de la plateforme \"historique\" FIA-NET (Sceau de confiance, Certissim): Serveurs Solaris 9 puis Red Hat/VMWare ESXi, répartis sur deux sites, applicatifs utilisant PHP/Apache/Sybase.",
+          "Gestion des comptes e-mail et backoffice des utilisateurs"
+        ]
+      },
+      {
+        "position": "Administrateur Système",
+        "employer": "Cloudmark Labs",
+        "summary": "Cloudmak Labs fournit une solution de filtrage Antivirus/Antispam pour le compte d'opérateurs. Orange l'a choisi en 2010 pour gérer son service SMTP et assurer la migration depuis l'ancien prestataire ATOS.",
+        "start": "2010-07-19",
+        "end": "2011-06-20",
+        "url": "https://www.cloudmark.com",
+        "keywords": [],
+        "highlights": [
+          "Installation et gestion de la plateforme de filtrage e-mail Orange/Wanadoo France (60 serveurs), support 4ème niveau, configuration/maintenance du Monitoring (Nagios/Centreon) et des load-balancers (F5 BigIP).",
+          "Installation de la plateforme de filtrage e-mail de laposte.net (10 serveurs)"
+        ]
+      },
+      {
+        "position": "Administrateur Système",
+        "employer": "Mondadori France Digital",
+        "summary": "Maison d'édition en Italie, Mondadori est en France un groupe de presse possédant de nombreux magazines dans les thématiques Auto, Féminin, People ou Santé.",
+        "start": "2007-12-03",
+        "end": "2010-07-16",
+        "url": "http://www.mondadori.fr",
+        "keywords": [],
+        "highlights": [
+          "Réorganisation de l'infrastructure existante;",
+          "Gestion d'une plateforme hébergeant divers CMS (eZ-publish, Joomla, SPIP, Movable Type, Wordpress) sous Linux Red Hat;",
+          "Changement d'hébergeur et installation d'une nouvelle infrastructure (Linux Gentoo, LDAP, Bind, MySQL, SVN, VMWare Server, Nagios, Munin, load-balancers F5 BigIP)."
+        ]
+      },
+      {
+        "position": "Administrateur Système",
+        "employer": "Boonty",
+        "summary": "Boonty était une société éditant des jeux casual qui s'est ensuite essayé au jeu communautaire freemium avec café.com. Elle a depuis été rachetée par Nexway.",
+        "start": "2005-11-01",
+        "end": "2007-11-29",
+        "url": "https://fr.boonty.com",
+        "keywords": [],
+        "highlights": [
+          "Installation/Maintenance de serveurs (Linux Debian): Mail (QMail, Postfix), Web (Apache), Bases de données (MySQL), Backoffice (bugtracker, wiki, CRM...) et monitoring (Nagios/Munin);",
+          "Relation avec les équipes techniques et marketing;",
+          "Gestion du parc utilisateur."
+        ]
+      },
+      {
+        "position": "Développeur",
+        "employer": "ND Logistics (groupe Norbert Dentressangle)",
+        "summary": "Intérim: Sur le site de Vert-Saint-Denis, j'ai développé divers outils de gestion, en vu d'être incorporé ensuite dans l'équipe de développement en charge de l'automatisation. Je n'ai pas donné suite, ayant l'opportunité de devenir Administrateur Système chez Boonty.",
+        "start": "2005-09-12",
+        "end": "2005-10-10",
+        "keywords": [],
+        "highlights": [
+          "Conception d'une application de facturation sur intranet (programmation PHP/PostgreSQL/Oracle);",
+          "Conception de scripts de reporting (programmation PHP/PostgreSQL/Oracle)."
+        ]
+      },
+      {
+        "position": "Technicien support/Administrateur Système",
+        "employer": "iFrance (groupe ACCLD)",
+        "summary": "Hébergeur de sites web et e-mail dont le siège était situé à Boulogne-Billancourt, et l'équipe technique à Dijon. C'est là que j'ai débuté en faisant du support technique, et que j'ai pu faire mes premières armes en administration système.",
+        "start": "2000-11-13",
+        "end": "2004-11-07",
+        "keywords": [],
+        "highlights": [
+          "Support utilisateur (assistance technique HTML et PHP, gestion des comptes utilisateurs);",
+          "Surveillance de contenu;",
+          "Installation et administration système d'un parc de 40 serveurs-lame hébergeant environ 350 000 sites web et comptes e-mail (exploitation des comptes utilisateurs, mise à jour des ressources système)."
+        ]
+      },
+      {
+        "position": "Développeur",
+        "employer": "J2T/Steli (groupe Thomson Multimedia)",
+        "summary": "Situé à Tonnerre en Bourgogne-Franche-Comté, J2T était une usine qui assemblait des magnétoscopes VHS et fabriquait leurs têtes de lecture pour le compte de Thomson Multimedia.",
+        "start": "1999-08-09",
+        "end": "2000-09-29",
+        "keywords": [],
+        "highlights": [
+          "Conception d'un automate de test de fin de chaine en équipe avec un automaticien (Programmation en C de la partie analyse de signal infrarouge);",
+          "Inventaire du parc informatique et création d'une base de données sous MS Access permettant de gérer celui-ci."
+        ]
+      },
+      {
+        "position": "Administrateur Système",
+        "employer": "University College Suffolk",
+        "summary": "Stage en cours de formation",
+        "start": "1999-04-01",
+        "end": "1999-06-01",
+        "url": "https://www.uos.ac.uk",
+        "keywords": [],
+        "highlights": [
+          "Mise en place d'un serveur Linux pour utilisation pédagogique (installation d'une distribution Mandrake et intégration/partage avec les postes utilisateurs sous Windows NT4)."
+        ]
       }
     ]
   },
-  "work": [
-    {
-      "company": "MyBestPro",
-      "website": "http://www.mybestpro.com",
-      "position": "Administrateur Système",
-      "location": {
-        "city": "Clichy",
-        "postalCode": "92110",
-        "countryCode": "FR"
+  "education": {
+    "level": "",
+    "history": [
+      {
+        "institution": "IUT de Dijon (Université de Bourgogne)",
+        "start": "1997",
+        "end": "1999",
+        "summary": "",
+        "area": "Informatique, option informatique et génie informatique",
+        "studyType": "DUT"
       },
-      "startDate": "2014-02-17",
-      "summary": "MyBestPro est une société mettant en relation des professionnels et des particuliers.",
-      "highlights": [
-        "Maintenance des plateformes Wengo, Astrocenter, Habitatpresto, RDVMedicaux, Bordas et JuriTravail",
-        "Maintenance et installation des environnements développeur (Machines virtuelles VirtualBox) et des serveurs physiques et virtuels (Xen, KVM, LXC, Docker) en data-center et sur Amazon Web Services",
-        "Accompagnement des développeurs",
-        "Migration des sites de CentOS 6 vers CentOS 7, et de Apache vers Nginx"
-      ]
-    },
-    {
-      "company": "FIA-NET (groupe Crédit Agricole)",
-      "website": "http://www.fia-net-group.com",
-      "position": "Administrateur Système",
-      "location": {
-        "city": "Paris",
-        "postalCode": "75009",
-        "countryCode": "FR"
+      {
+        "institution": "Université de Bourgogne",
+        "start": "1995",
+        "end": "1996",
+        "summary": "",
+        "area": "Deug B (sciences de la vie)",
+        "studyType": "1ère année"
       },
-      "startDate": "2011-07-04",
-      "endDate": "2013-09-27",
-      "summary": "Spécialisée dans les avis clients et la lutte contre la fraude, FIA-NET a lancé en 2011 Kwixo, une solution de paiement sécurisé pour le compte du Crédit Agricole. C'est dans ce cadre que j'ai été embauché pour maintenir l'infrastructure associée, ainsi que la plateforme historique.",
-      "highlights": [
-        "Maintenance de la plateforme Kwixo: 20 serveurs Solaris 10 et CentOS, répartis sur deux sites, applicatifs utilisant Java/Apache Tomcat/Sybase/CouchDB;",
-        "Maintenance de la plateforme \"historique\" FIA-NET (Sceau de confiance, Certissim): Serveurs Solaris 9 puis Red Hat/VMWare ESXi, répartis sur deux sites, applicatifs utilisant PHP/Apache/Sybase.",
-        "Gestion des comptes e-mail et backoffice des utilisateurs"
-      ]
-    },
-    {
-      "company": "Cloudmark Labs",
-      "website": "https://www.cloudmark.com",
-      "position": "Administrateur Système",
-      "location": {
-        "city": "Paris",
-        "postalCode": "75009",
-        "countryCode": "FR"
+      {
+        "institution": "Université de Bourgogne",
+        "start": "1994",
+        "end": "1995",
+        "summary": "",
+        "area": "Deug A (sciences & structure de la matière)",
+        "studyType": "1ère année"
       },
-      "startDate": "2010-07-19",
-      "endDate": "2011-06-20",
-      "summary": "Cloudmak Labs fournit une solution de filtrage Antivirus/Antispam pour le compte d'opérateurs. Orange l'a choisi en 2010 pour gérer son service SMTP et assurer la migration depuis l'ancien prestataire ATOS.",
-      "highlights": [
-        "Installation et gestion de la plateforme de filtrage e-mail Orange/Wanadoo France (60 serveurs), support 4ème niveau, configuration/maintenance du Monitoring (Nagios/Centreon) et des load-balancers (F5 BigIP).",
-        "Installation de la plateforme de filtrage e-mail de laposte.net (10 serveurs)"
-      ]
-    },
-    {
-      "company": "Mondadori France Digital",
-      "website": "http://www.mondadori.fr",
-      "position": "Administrateur Système",
-      "location": {
-        "city": "Paris",
-        "postalCode": "75015",
-        "countryCode": "FR"
+      {
+        "institution": "Lycée des Chaumes",
+        "start": "1994",
+        "end": "1994",
+        "summary": "",
+        "area": "D (Mathématiques & Biologie)",
+        "studyType": "Baccalauréat"
       },
-      "startDate": "2007-12-03",
-      "endDate": "2010-07-16",
-      "summary": "Maison d'édition en Italie, Mondadori est en France un groupe de presse possédant de nombreux magazines dans les thématiques Auto, Féminin, People ou Santé.",
-      "highlights": [
-        "Réorganisation de l'infrastructure existante;",
-        "Gestion d'une plateforme hébergeant divers CMS (eZ-publish, Joomla, SPIP, Movable Type, Wordpress) sous Linux Red Hat;",
-        "Changement d'hébergeur et installation d'une nouvelle infrastructure (Linux Gentoo, LDAP, Bind, MySQL, SVN, VMWare Server, Nagios, Munin, load-balancers F5 BigIP)."
-      ]
-    },
-    {
-      "company": "Boonty",
-      "website": "https://fr.boonty.com",
-      "position": "Administrateur Système",
-      "location": {
-        "city": "Paris",
-        "postalCode": "75014",
-        "countryCode": "FR"
+      {
+        "start": "1993",
+        "end": "1993",
+        "summary": "",
+        "area": "B",
+        "studyType": "Permis de conduire"
+      }
+    ]
+  },
+  "service": {
+    "history": [
+      {
+        "type": "volunteer",
+        "position": "Webmaster",
+        "organization": "Les 4'Arts",
+        "start": "2017",
+        "url": "http://4arts.tourmentine.com",
+        "summary": "Mise en place d'un CMS (PluXML) et création d'un thème dédié pour l'association Les 4'Arts"
       },
-      "startDate": "2005-11-01",
-      "endDate": "2007-11-29",
-      "summary": "Boonty était une société éditant des jeux casual qui s'est ensuite essayé au jeu communautaire freemium avec café.com. Elle a depuis été rachetée par Nexway.",
-      "highlights": [
-        "Installation/Maintenance de serveurs (Linux Debian): Mail (QMail, Postfix), Web (Apache), Bases de données (MySQL), Backoffice (bugtracker, wiki, CRM...) et monitoring (Nagios/Munin);",
-        "Relation avec les équipes techniques et marketing;",
-        "Gestion du parc utilisateur."
-      ]
-    },
-    {
-      "company": "ND Logistics (groupe Norbert Dentressangle)",
-      "position": "Développeur",
-      "location": {
-        "city": "Melun",
-        "postalCode": "77000",
-        "countryCode": "FR"
+      {
+        "type": "volunteer",
+        "position": "Correcteur",
+        "organization": "Wikipedia",
+        "start": "2009-10-19",
+        "url": "https://fr.wikipedia.org",
+        "summary": "Corrections et ajouts mineurs"
       },
-      "startDate": "2005-09-12",
-      "endDate": "2005-10-10",
-      "summary": "Intérim: Sur le site de Vert-Saint-Denis, j'ai développé divers outils de gestion, en vu d'être incorporé ensuite dans l'équipe de développement en charge de l'automatisation. Je n'ai pas donné suite, ayant l'opportunité de devenir Administrateur Système chez Boonty.",
-      "highlights": [
-        "Conception d'une application de facturation sur intranet (programmation PHP/PostgreSQL/Oracle);",
-        "Conception de scripts de reporting (programmation PHP/PostgreSQL/Oracle)."
-      ]
-    },
-    {
-      "company": "iFrance (groupe ACCLD)",
-      "position": "Technicien support/Administrateur Système",
-      "location": {
-        "city": "Dijon",
-        "postalCode": "21000",
-        "countryCode": "FR"
+      {
+        "type": "volunteer",
+        "position": "Traducteur",
+        "organization": "Mplayer",
+        "start": "2002",
+        "end": "2004",
+        "url": "http://mplayerhq.hu",
+        "summary": "Traduction Anglais-Français de la documentation et de la page de man; réécriture de la documentation au format DocBook (XML)"
       },
-      "startDate": "2000-11-13",
-      "endDate": "2004-11-07",
-      "summary": "Hébergeur de sites web et e-mail dont le siège était situé à Boulogne-Billancourt, et l'équipe technique à Dijon. C'est là que j'ai débuté en faisant du support technique, et que j'ai pu faire mes premières armes en administration système.",
-      "highlights": [
-        "Support utilisateur (assistance technique HTML et PHP, gestion des comptes utilisateurs);",
-        "Surveillance de contenu;",
-        "Installation et administration système d'un parc de 40 serveurs-lame hébergeant environ 350 000 sites web et comptes e-mail (exploitation des comptes utilisateurs, mise à jour des ressources système)."
-      ]
-    },
-    {
-      "company": "J2T/Steli (groupe Thomson Multimedia)",
-      "position": "Développeur",
-      "location": {
-        "city": "Tonnerre",
-        "postalCode": "89700",
-        "countryCode": "FR"
+      {
+        "type": "volunteer",
+        "position": "Webmaster",
+        "organization": "Train Miniature Avallonnais",
+        "start": "2002",
+        "url": "https://tma.tourmentine.com",
+        "summary": "Création et hébergement du site web de l'association Train Miniature Avallonnais"
       },
-      "startDate": "1999-08-09",
-      "endDate": "2000-09-29",
-      "summary": "Situé à Tonnerre en Bourgogne-Franche-Comté, J2T était une usine qui assemblait des magnétoscopes VHS et fabriquait leurs têtes de lecture pour le compte de Thomson Multimedia.",
-      "highlights": [
-        "Conception d'un automate de test de fin de chaine en équipe avec un automaticien (Programmation en C de la partie analyse de signal infrarouge);",
-        "Inventaire du parc informatique et création d'une base de données sous MS Access permettant de gérer celui-ci."
-      ]
-    },
-    {
-      "company": "University College Suffolk",
-      "website": "https://www.uos.ac.uk",
-      "position": "Administrateur Système",
-      "location": {
-        "city": "Ipswich",
-        "postalCode": "IP4 1LT",
-        "countryCode": "UK"
+      {
+        "type": "volunteer",
+        "position": "Développeur",
+        "organization": "Projet Personnel",
+        "start": "2000",
+        "end": "2004",
+        "url": "http://web.archive.org/web/20030418090130/http://phpinfo.ifrance.com:80/phpinfo/index.php?section=pages/pip&page=index&theme=marble1",
+        "summary": "Mise en place d'un serveur web/ftp/mail personnel sous FreeBSD; création d'une bibliothèque PHP permettant de développer rapidement des sites web légers."
+      }
+    ]
+  },
+  "skills": {
+    "sets": [
+      {
+        "name": "Systèmes UNIX",
+        "skills": [
+          "Red Hat/CentOS",
+          "Debian/Ubuntu",
+          "FreeBSD",
+          "Solaris"
+        ]
       },
-      "startDate": "1999-04-01",
-      "endDate": "1999-06-01",
-      "summary": "Stage en cours de formation",
-      "highlights": [
-        "Mise en place d'un serveur Linux pour utilisation pédagogique (installation d'une distribution Mandrake et intégration/partage avec les postes utilisateurs sous Windows NT4)."
-      ]
-    }
-  ],
-  "volunteer": [
+      {
+        "name": "Systèmes Microsoft",
+        "skills": [
+          "Windows Server",
+          "Windows 7"
+        ]
+      },
+      {
+        "name": "Languages",
+        "skills": [
+          "C",
+          "PHP",
+          "Perl",
+          "Python",
+          "Scripts shell",
+          "Javascript",
+          "HTML/CSS"
+        ]
+      },
+      {
+        "name": "Bases de données",
+        "skills": [
+          "MySQL",
+          "PostgreSQL",
+          "sqlite",
+          "CouchDB",
+          "MongoDB"
+        ]
+      },
+      {
+        "name": "Surveillance/Métrologie",
+        "skills": [
+          "Nagios/Icinga",
+          "Zabbix",
+          "Centreon",
+          "Collectd",
+          "Grafana",
+          "Munin"
+        ]
+      },
+      {
+        "name": "Web",
+        "skills": [
+          "Apache",
+          "Tomcat",
+          "Nginx",
+          "Squid",
+          "Varnish"
+        ]
+      },
+      {
+        "name": "Mail",
+        "skills": [
+          "QMail",
+          "Postfix",
+          "Sendmail",
+          "Courier",
+          "Dovecot",
+          "Spamassassin",
+          "ClamAV",
+          "MS Exchange"
+        ]
+      },
+      {
+        "name": "FTP",
+        "skills": [
+          "vsftpd",
+          "ProFTPd",
+          "pure-ftpd"
+        ]
+      },
+      {
+        "name": "DNS",
+        "skills": [
+          "bind9",
+          "MyDNS-NG"
+        ]
+      },
+      {
+        "name": "Redondance",
+        "skills": [
+          "keepalived",
+          "F5 BigIP",
+          "Radware Alteon",
+          "heartbeat"
+        ]
+      },
+      {
+        "name": "Pare-feux",
+        "skills": [
+          "Netfilter/IP Tables",
+          "firewalld",
+          "Packet Filter",
+          "Cisco ASA",
+          "SonicWall"
+        ]
+      },
+      {
+        "name": "Gestion de sources",
+        "skills": [
+          "CVS",
+          "SVN",
+          "git"
+        ]
+      },
+      {
+        "name": "Déploiement",
+        "skills": [
+          "Fabric",
+          "SaltStack",
+          "Ansible",
+          "Jenkins"
+        ]
+      },
+      {
+        "name": "Virtualisation/Isolation",
+        "skills": [
+          "VMWare ESX/ESXi",
+          "Xen",
+          "KVM",
+          "LXC",
+          "qemu",
+          "Oracle VirtualBox",
+          "Zones Solaris",
+          "Jails FreeBSD",
+          "Docker",
+          "Amazon ECS"
+        ]
+      },
+      {
+        "name": "Divers",
+        "skills": [
+          "NFS",
+          "Samba",
+          "DHCP",
+          "NIS/LDAP/Active Directory",
+          "DNSSEC"
+        ]
+      }
+    ]
+  },
+  "social": [
     {
-      "organization": "Les 4'Arts",
-      "position": "Webmaster",
-      "website": "http://4arts.tourmentine.com",
-      "startDate": "2017",
-      "summary": "Mise en place d'un CMS (PluXML) et création d'un thème dédié pour l'association Les 4'Arts"
-    },
-    {
-      "organization": "Wikipedia",
-      "position": "Correcteur",
-      "website": "https://fr.wikipedia.org",
-      "startDate": "2009-10-19",
-      "summary": "Corrections et ajouts mineurs"
-    },
-    {
-      "organization": "Mplayer",
-      "position": "Traducteur",
-      "website": "http://mplayerhq.hu",
-      "startDate": "2002",
-      "endDate": "2004",
-      "summary": "Traduction Anglais-Français de la documentation et de la page de man; réécriture de la documentation au format DocBook (XML)"
-    },
-    {
-      "organization": "Train Miniature Avallonnais",
-      "position": "Webmaster",
-      "website": "https://tma.tourmentine.com",
-      "startDate": "2002",
-      "summary": "Création et hébergement du site web de l'association Train Miniature Avallonnais"
-    },
-    {
-      "organization": "Projet Personnel",
-      "position": "Développeur",
-      "website": "http://web.archive.org/web/20030418090130/http://phpinfo.ifrance.com:80/phpinfo/index.php?section=pages/pip&page=index&theme=marble1",
-      "startDate": "2000",
-      "endDate": "2004",
-      "summary": "Mise en place d'un serveur web/ftp/mail personnel sous FreeBSD; création d'une bibliothèque PHP permettant de développer rapidement des sites web légers."
-    }
-  ],
-  "education": [
-    {
-      "institution": "IUT de Dijon (Université de Bourgogne)",
-      "startDate": "1997",
-      "endDate": "1999",
-      "area": "Informatique, option informatique et génie informatique",
-      "studyType": "DUT"
-    },
-    {
-      "institution": "Université de Bourgogne",
-      "startDate": "1995",
-      "endDate": "1996",
-      "area": "Deug B (sciences de la vie)",
-      "studyType": "1ère année"
-    },
-    {
-      "institution": "Université de Bourgogne",
-      "startDate": "1994",
-      "endDate": "1995",
-      "area": "Deug A (sciences & structure de la matière)",
-      "studyType": "1ère année"
-    },
-    {
-      "institution": "Lycée des Chaumes",
-      "startDate": "1994",
-      "endDate": "1994",
-      "area": "D (Mathématiques & Biologie)",
-      "studyType": "Baccalauréat"
-    },
-    {
-      "startDate": "1993",
-      "endDate": "1993",
-      "area": "B",
-      "studyType": "Permis de conduire"
-    }
-  ],
-  "skills": [
-    {
-      "name": "Systèmes UNIX",
-      "keywords": [
-        "Red Hat/CentOS",
-        "Debian/Ubuntu",
-        "FreeBSD",
-        "Solaris"
-      ]
-    },
-    {
-      "name": "Systèmes Microsoft",
-      "keywords": [
-        "Windows Server",
-        "Windows 7"
-      ]
-    },
-    {
-      "name": "Languages",
-      "keywords": [
-        "C",
-        "PHP",
-        "Perl",
-        "Python",
-        "Scripts shell",
-        "Javascript",
-        "HTML/CSS"
-      ]
-    },
-    {
-      "name": "Bases de données",
-      "keywords": [
-        "MySQL",
-        "PostgreSQL",
-        "sqlite",
-        "CouchDB",
-        "MongoDB"
-      ]
-    },
-    {
-      "name": "Surveillance/Métrologie",
-      "keywords": [
-        "Nagios/Icinga",
-        "Zabbix",
-        "Centreon",
-        "Collectd",
-        "Grafana",
-        "Munin"
-      ]
-    },
-    {
-      "name": "Web",
-      "keywords": [
-        "Apache",
-        "Tomcat",
-        "Nginx",
-        "Squid",
-        "Varnish"
-      ]
-    },
-    {
-      "name": "Mail",
-      "keywords": [
-        "QMail",
-        "Postfix",
-        "Sendmail",
-        "Courier",
-        "Dovecot",
-        "Spamassassin",
-        "ClamAV",
-        "MS Exchange"
-      ]
-    },
-    {
-      "name": "FTP",
-      "keywords": [
-        "vsftpd",
-        "ProFTPd",
-        "pure-ftpd"
-      ]
-    },
-    {
-      "name": "DNS",
-      "keywords": [
-        "bind9",
-        "MyDNS-NG"
-      ]
-    },
-    {
-      "name": "Redondance",
-      "keywords": [
-        "keepalived",
-        "F5 BigIP",
-        "Radware Alteon",
-        "heartbeat"
-      ]
-    },
-    {
-      "name": "Pare-feux",
-      "keywords": [
-        "Netfilter/IP Tables",
-        "firewalld",
-        "Packet Filter",
-        "Cisco ASA",
-        "SonicWall"
-      ]
-    },
-    {
-      "name": "Gestion de sources",
-      "keywords": [
-        "CVS",
-        "SVN",
-        "git"
-      ]
-    },
-    {
-      "name": "Déploiement",
-      "keywords": [
-        "Fabric",
-        "SaltStack",
-        "Ansible",
-        "Jenkins"
-      ]
-    },
-    {
-      "name": "Virtualisation/Isolation",
-      "keywords": [
-        "VMWare ESX/ESXi",
-        "Xen",
-        "KVM",
-        "LXC",
-        "qemu",
-        "Oracle VirtualBox",
-        "Zones Solaris",
-        "Jails FreeBSD",
-        "Docker",
-        "Amazon ECS"
-      ]
-    },
-    {
-      "name": "Divers",
-      "keywords": [
-        "NFS",
-        "Samba",
-        "DHCP",
-        "NIS/LDAP/Active Directory",
-        "DNSSEC"
-      ]
+      "label": "LinkedIn",
+      "network": "LinkedIn",
+      "url": "https://www.linkedin.com/in/nicolaslegaillart",
+      "user": "nicolaslegaillart"
     }
   ],
   "interests": [
