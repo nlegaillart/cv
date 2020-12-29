@@ -10,7 +10,7 @@
   },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2020-12-01T22:14:08.193Z"
+    "modified": "2020-12-29T22:08:58.257Z"
   },
   "location": {
     "city": "Saint-Sébastien-sur-Loire",
@@ -30,7 +30,7 @@
         "keywords": [],
         "highlights": [
           "Maintenance des plateformes VMS Online, 3665, Conférence téléphonique, Alerte Évenement",
-          "Maintenance et installation des des serveurs physiques et virtuels (Xen, Proxmox , OpenStack) en data-center et sur OVHcloud",
+          "Maintenance et installation des serveurs physiques et virtuels (Xen, Proxmox , OpenStack) en data-center et sur OVHcloud",
           "Accompagnement des développeurs"
         ]
       },

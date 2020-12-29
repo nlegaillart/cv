@@ -36,7 +36,7 @@
       "summary": "Néocom édite des solutions autour de la téléphonie (campagnes, conférences, etc.)",
       "highlights": [
         "Maintenance des plateformes VMS Online, 3665, Conférence téléphonique, Alerte Évenement",
-	"Maintenance et installation des des serveurs physiques et virtuels (Xen, Proxmox , OpenStack) en data-center et sur OVHcloud",
+	"Maintenance et installation des serveurs physiques et virtuels (Xen, Proxmox , OpenStack) en data-center et sur OVHcloud",
 	"Accompagnement des développeurs"
       ]
     },
