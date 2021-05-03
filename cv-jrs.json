@@ -36,7 +36,7 @@
       "summary": "Néocom édite des solutions autour de la téléphonie (campagnes, conférences, etc.)",
       "highlights": [
         "Maintenance des plateformes VMS Online, 3665, Conférence téléphonique, Alerte Évenement",
-	"Maintenance et installation des serveurs physiques et virtuels (Xen, Proxmox , OpenStack) en data-center et sur OVHcloud",
+	"Maintenance et installation des serveurs physiques et virtuels (XenCenter, Proxmox , OpenStack) en data-center et sur OVHcloud",
 	"Accompagnement des développeurs"
       ]
     },
@@ -230,7 +230,7 @@
     "organization": "Les 4'Arts",
     "position": "Webmaster",
     "website": "http://4arts.tourmentine.com",
-    "startDate": "2017",
+    "startDate": "2017-01",
     "summary": "Mise en place d'un CMS (PluXML) et création d'un thème dédié pour l'association Les 4'Arts"
   }
   ],
@@ -313,8 +313,8 @@
       "name": "Surveillance/Métrologie",
       "keywords": [
         "Nagios/Icinga",
-        "Zabbix",
         "Centreon",
+        "Zabbix",
         "Collectd",
         "Grafana",
         "Munin"
@@ -327,7 +327,8 @@
         "Tomcat",
         "Nginx",
         "Squid",
-        "Varnish"
+        "Varnish",
+        "HAProxy"
       ]
     },
     {
@@ -339,16 +340,9 @@
         "Courier",
         "Dovecot",
         "Spamassassin",
+        "Rspamd",
         "ClamAV",
         "MS Exchange"
-      ]
-    },
-    {
-      "name": "FTP",
-      "keywords": [
-        "vsftpd",
-        "ProFTPd",
-        "pure-ftpd"
       ]
     },
     {
@@ -364,7 +358,15 @@
         "keepalived",
         "F5 BigIP",
         "Radware Alteon",
-        "heartbeat"
+        "heartbeat",
+        "glusterfs"
+      ]
+    },
+    {
+      "name": "Switches/Routeurs",
+      "keywords": [
+        "Cisco Catalyst",
+        "MikroTik RouterBOARD"
       ]
     },
     {
@@ -398,7 +400,7 @@
       "name": "Virtualisation/Isolation",
       "keywords": [
         "VMWare ESX/ESXi",
-        "Xen",
+        "Xen/XenCenter",
 	"KVM",
 	"LXC",
         "qemu",
@@ -406,7 +408,9 @@
         "Zones Solaris",
         "Jails FreeBSD",
         "Docker",
-        "Amazon ECS"
+        "Amazon ECS",
+        "Proxmox",
+        "OpenStack"
       ]
     },
     {

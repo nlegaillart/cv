@@ -10,7 +10,7 @@
   },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2020-12-29T22:08:58.257Z"
+    "modified": "2021-05-03T20:28:37.275Z"
   },
   "location": {
     "city": "Saint-Sébastien-sur-Loire",
@@ -30,7 +30,7 @@
         "keywords": [],
         "highlights": [
           "Maintenance des plateformes VMS Online, 3665, Conférence téléphonique, Alerte Évenement",
-          "Maintenance et installation des serveurs physiques et virtuels (Xen, Proxmox , OpenStack) en data-center et sur OVHcloud",
+          "Maintenance et installation des serveurs physiques et virtuels (XenCenter, Proxmox , OpenStack) en data-center et sur OVHcloud",
           "Accompagnement des développeurs"
         ]
       },
@@ -205,7 +205,7 @@
         "type": "volunteer",
         "position": "Webmaster",
         "organization": "Les 4'Arts",
-        "start": "2017",
+        "start": "2017-01",
         "url": "http://4arts.tourmentine.com",
         "summary": "Mise en place d'un CMS (PluXML) et création d'un thème dédié pour l'association Les 4'Arts"
       },
@@ -289,8 +289,8 @@
         "name": "Surveillance/Métrologie",
         "skills": [
           "Nagios/Icinga",
-          "Zabbix",
           "Centreon",
+          "Zabbix",
           "Collectd",
           "Grafana",
           "Munin"
@@ -303,7 +303,8 @@
           "Tomcat",
           "Nginx",
           "Squid",
-          "Varnish"
+          "Varnish",
+          "HAProxy"
         ]
       },
       {
@@ -315,16 +316,9 @@
           "Courier",
           "Dovecot",
           "Spamassassin",
+          "Rspamd",
           "ClamAV",
           "MS Exchange"
-        ]
-      },
-      {
-        "name": "FTP",
-        "skills": [
-          "vsftpd",
-          "ProFTPd",
-          "pure-ftpd"
         ]
       },
       {
@@ -340,7 +334,15 @@
           "keepalived",
           "F5 BigIP",
           "Radware Alteon",
-          "heartbeat"
+          "heartbeat",
+          "glusterfs"
+        ]
+      },
+      {
+        "name": "Switches/Routeurs",
+        "skills": [
+          "Cisco Catalyst",
+          "MikroTik RouterBOARD"
         ]
       },
       {
@@ -374,7 +376,7 @@
         "name": "Virtualisation/Isolation",
         "skills": [
           "VMWare ESX/ESXi",
-          "Xen",
+          "Xen/XenCenter",
           "KVM",
           "LXC",
           "qemu",
@@ -382,7 +384,9 @@
           "Zones Solaris",
           "Jails FreeBSD",
           "Docker",
-          "Amazon ECS"
+          "Amazon ECS",
+          "Proxmox",
+          "OpenStack"
         ]
       },
       {
