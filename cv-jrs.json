@@ -24,6 +24,22 @@
   },
   "work": [
     {
+      "company": "DRI",
+      "website": "https://www.dri.fr",
+      "position": "DevOps",
+      "location": {
+        "city": "Nantes",
+        "postalCode": "44000",
+        "countryCode": "FR"
+      },
+      "startDate": "2021-10-11",
+      "summary": "DRI est un hébergeur web et infogéreur qui met en avant un esprit de service sans blabla dans un environnement naturel, social et humain",
+      "highlights": [
+        "Développement, mise en place et maintenance de services pour faciliter l'infogérance. Conformation des serveurs avec l'outil Puppet",
+	"Assistance aux équipes support"
+      ]
+    },
+    {
       "company": "Néocom Multimédia",
       "website": "https://www.neocom.fr",
       "position": "Administrateur Système",
@@ -33,6 +49,7 @@
         "countryCode": "FR"
       },
       "startDate": "2020-06-01",
+      "endDate": "2021-09-30",
       "summary": "Néocom édite des solutions autour de la téléphonie (campagnes, conférences, etc.)",
       "highlights": [
         "Maintenance des plateformes VMS Online, 3665, Conférence téléphonique, Alerte Évenement",
@@ -294,6 +311,7 @@
         "PHP",
         "Perl",
         "Python",
+        "Ruby",
         "Scripts shell",
         "Javascript",
         "HTML/CSS"
@@ -393,6 +411,7 @@
         "Fabric",
         "SaltStack",
         "Ansible",
+        "Puppet",
         "Jenkins"
       ]
     },
