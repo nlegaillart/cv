@@ -9,5 +9,5 @@ To generate other formats you will need:
 
 *Important*: On the first use run "make install" to install required Node modules in theme directory.
 
-Included jsonresume theme is a modified Version of [Curzy theme](https://github.com/Curzy/jsonresume-theme-curzy) which is a modified version of Stack Overflow theme for jsonresume ([jsonresume-theme-stackoverflow](https://github.com/francescoes/jsonresume-theme-stackoverflow))
+Included jsonresume theme is a modified version of [Curzy theme](https://github.com/Curzy/jsonresume-theme-curzy) which is a modified version of Stack Overflow theme for jsonresume ([jsonresume-theme-stackoverflow](https://github.com/francescoes/jsonresume-theme-stackoverflow))
 
