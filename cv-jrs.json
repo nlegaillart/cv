@@ -35,8 +35,9 @@
       "startDate": "2021-10-11",
       "summary": "DRI est un hébergeur web et infogéreur qui met en avant un esprit de service sans blabla dans un environnement naturel, social et humain",
       "highlights": [
-        "Développement, mise en place et maintenance de services pour faciliter l'infogérance. Conformation des serveurs avec l'outil Puppet",
-	"Assistance aux équipes support"
+        "Recherche & Développement",
+	"mise en place et maintenance de services pour faciliter l'infogérance. Conformation des serveurs avec l'outil Puppet",
+ 	"Assistance aux équipes support"
       ]
     },
     {
@@ -324,7 +325,8 @@
         "PostgreSQL",
         "sqlite",
         "CouchDB",
-        "MongoDB"
+        "MongoDB",
+        "InfluxDB"
       ]
     },
     {
@@ -367,7 +369,8 @@
       "name": "DNS",
       "keywords": [
         "bind9",
-        "MyDNS-NG"
+        "MyDNS-NG",
+        "DNSSEC"
       ]
     },
     {
@@ -439,7 +442,8 @@
         "Samba",
         "DHCP",
         "NIS/LDAP/Active Directory",
-        "DNSSEC"
+        "IPSEC",
+        "OpenVPN"
       ]
     }
   ],
