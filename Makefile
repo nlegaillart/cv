@@ -13,6 +13,8 @@ build:
 	# fix rights
 	chmod a+rx out/
 	chmod -R a+r out/
+	# remove temporary files
+	rm -f out/nlegaillart_cv.{png,pdf}.html
 
 install:
 	cd jsonresume-theme-curzy-custom && npm install
