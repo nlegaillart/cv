@@ -1,0 +1,10 @@
+name: json lint
+on: [push]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    name: json lint
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get install -y jq
+      - run: jq . cv-*.json -e
