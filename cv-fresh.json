@@ -324,7 +324,7 @@
     {
       "name": "Bases de données",
       "keywords": [
-        "MySQL",
+        "MySQL/MariaDB",
         "PostgreSQL",
         "sqlite",
         "CouchDB",
@@ -340,6 +340,7 @@
         "Zabbix",
         "Collectd",
         "Grafana",
+        "Prometheus",
         "Munin"
       ]
     },
@@ -371,8 +372,10 @@
     {
       "name": "DNS",
       "keywords": [
-        "bind9",
+        "BIND 9",
         "MyDNS-NG",
+        "PowerDNS",
+        "NSD",
         "DNSSEC"
       ]
     },
@@ -396,8 +399,7 @@
     {
       "name": "Pare-feux",
       "keywords": [
-        "Netfilter/IP Tables",
-        "firewalld",
+        "Netfilter/iptables/firewalld",
         "Packet Filter",
         "Cisco ASA",
         "SonicWall"
@@ -426,13 +428,13 @@
       "keywords": [
         "VMWare ESX/ESXi",
         "Xen/XenCenter",
-        "KVM",
-        "LXC",
-        "qemu",
+        "KVM/qemu",
+        "LXC/LXD",
         "Oracle VirtualBox",
         "Zones Solaris",
         "Jails FreeBSD",
         "Docker",
+        "Kubernetes",
         "Amazon ECS",
         "Proxmox",
         "OpenStack"
@@ -445,7 +447,7 @@
         "Samba",
         "DHCP",
         "NIS/LDAP/Active Directory",
-        "IPSEC",
+        "IPsec",
         "OpenVPN"
       ]
     }
