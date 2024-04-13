@@ -10,9 +10,9 @@ build:
 	# remove distant font-awesome
 	curl -L -o out/font-awesome.min.css https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
 	sed -i s,https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/,https://nicolas.legaillart.fr/cv/,g out/nlegaillart_cv.html
-	# fix rights
+	# fix permissions
 	chmod a+rx out/
-	chmod -R a+r out/
+	chmod a+r out/*
 	# remove temporary files
 	rm -f out/nlegaillart_cv.{png,pdf}.html
 
