@@ -1,3 +1,4 @@
+---
 name: json lint
 on: [push]
 jobs:
