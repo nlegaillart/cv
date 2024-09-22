@@ -36,7 +36,9 @@
       "summary": "DRI est un hébergeur web et infogéreur qui met en avant un esprit de service sans blabla dans un environnement naturel, social et humain",
       "highlights": [
         "Recherche & Développement",
-	"mise en place et maintenance de services pour faciliter l'infogérance. Conformation des serveurs avec l'outil Puppet",
+	"Mise en place et maintenance de services pour faciliter l'infogérance, en utilisant les outils Proxmox, Puppet, Foreman et Docker",
+	"Refonte de l'infrastructure DNS (PowerDNS, BIND, NSD)",
+	"Mise en place d'une plateforme Kubernetes mutualisée",
  	"Assistance aux équipes support"
       ]
     },
@@ -249,6 +251,7 @@
     "position": "Webmaster",
     "website": "http://4arts.tourmentine.com",
     "startDate": "2017-01",
+    "endDate": "2018-12",
     "summary": "Mise en place d'un CMS (PluXML) et création d'un thème dédié pour l'association Les 4'Arts"
   }
   ],
