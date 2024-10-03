@@ -7,4 +7,10 @@ jobs:
     name: json lint
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/markdownlint-cli2-action@v17
+        with:
+          globs: |
+            **/*.md
+            !out/*.md
+            !jsonresume-theme-curzy-custom/**/*.md
       - run: jq . cv-*.json -e
