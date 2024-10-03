@@ -7,5 +7,11 @@ jobs:
     name: json lint
     steps:
       - uses: actions/checkout@v4
+      - uses: DavidAnson/markdownlint-cli2-action@v17
+        with:
+          globs: |
+            *.md
+            !out/*.md
+            !jsonresume-theme-curzy-custom/**/*.md
       - run: sudo apt-get install -y jq
       - run: jq . cv-*.json -e
