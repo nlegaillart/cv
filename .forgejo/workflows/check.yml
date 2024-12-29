@@ -7,7 +7,7 @@ jobs:
     name: json lint
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/markdownlint-cli2-action@v17
+      - uses: actions/markdownlint-cli2-action@v19
         with:
           globs: |
             **/*.md
