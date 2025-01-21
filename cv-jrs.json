@@ -352,7 +352,8 @@
         "Nginx",
         "Squid",
         "Varnish",
-        "HAProxy"
+        "HAProxy",
+        "Traefik"
       ]
     },
     {
@@ -386,7 +387,8 @@
         "F5 BigIP",
         "Radware Alteon",
         "heartbeat",
-        "glusterfs"
+        "glusterfs",
+        "CARP/UCARP"
       ]
     },
     {
@@ -433,7 +435,7 @@
         "Oracle VirtualBox",
         "Zones Solaris",
         "Jails FreeBSD",
-        "Docker",
+        "Docker/Podman",
         "Kubernetes",
         "Amazon ECS",
         "Proxmox",
