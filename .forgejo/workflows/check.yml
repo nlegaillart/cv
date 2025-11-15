@@ -1,5 +1,6 @@
 ---
 name: json lint
+enable-email-notifications: true
 on: [push]
 jobs:
   check:
