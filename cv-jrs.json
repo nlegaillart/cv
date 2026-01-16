@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Nicolas Le Gaillart",
-    "label": "Administrateur Systèmes et Réseaux",
+    "label": "DevOps / Administrateur Systèmes et Réseaux",
     "website": "https://nicolas.legaillart.fr",
     "phone": "+33618540718",
     "email": "nicolas@legaillart.fr",
     "location": {
-      "address": "62, Avenue de la Martellière",
+      "address": "11, Rue Aristide Briand",
       "city": "Saint-Sébastien-sur-Loire",
       "postalCode": "44230",
       "countryCode": "FR"
@@ -20,7 +20,12 @@
       "network": "LinkedIn",
       "username": "nicolaslegaillart",
       "url": "https://www.linkedin.com/in/nicolaslegaillart"
-    }]
+    },{
+      "network": "GitHub",
+      "username": "nlegaillart",
+      "url": "https://github.com/nlegaillart"
+    }
+      ]
   },
   "work": [
     {
@@ -39,12 +44,13 @@
 	"Mise en place et maintenance de services pour faciliter l'infogérance, en utilisant les outils Proxmox, Puppet, Foreman et Docker",
 	"Refonte de l'infrastructure DNS (PowerDNS, BIND, NSD)",
 	"Mise en place d'une plateforme Kubernetes mutualisée",
- 	"Assistance aux équipes support"
+ 	"Assistance aux équipes support",
+ 	"Support & infogérance client"
       ]
     },
     {
       "company": "Néocom Multimédia",
-      "website": "https://www.neocom.fr",
+      "website": "https://web.archive.org/web/20220531005959/https://www.neocom.fr/",
       "position": "Administrateur Système",
       "location": {
         "city": "Rezé",
@@ -62,7 +68,7 @@
     },
     {
       "company": "MyBestPro",
-      "website": "http://www.mybestpro.com",
+      "website": "https://www.mybestpro.com",
       "position": "Administrateur Système",
       "location": {
         "city": "Clichy",
@@ -81,7 +87,7 @@
     },
     {
       "company": "FIA-NET (groupe Crédit Agricole)",
-      "website": "http://www.fia-net-group.com",
+      "website": "https://fr.wikipedia.org/wiki/FIA-NET",
       "position": "Administrateur Système",
       "location": {
         "city": "Paris",
@@ -116,7 +122,7 @@
     },
     {
       "company": "Mondadori France Digital",
-      "website": "http://www.mondadori.fr",
+      "website": "https://fr.wikipedia.org/wiki/Mondadori_France",
       "position": "Administrateur Système",
       "location": {
         "city": "Paris",
@@ -226,15 +232,15 @@
   {
     "organization": "Mplayer",
     "position": "Traducteur",
-    "website": "http://mplayerhq.hu",
+    "website": "https://mplayerhq.hu",
     "startDate": "2002",
     "endDate": "2004",
     "summary": "Traduction Anglais-Français de la documentation et de la page de man; réécriture de la documentation au format DocBook (XML)"
   },
   {
-    "organization": "Projet Personnel",
+    "organization": "Projet Personnel : Micro-CMS",
     "position": "Développeur",
-    "website": "http://web.archive.org/web/20030418090130/http://phpinfo.ifrance.com:80/phpinfo/index.php?section=pages/pip&page=index&theme=marble1",
+    "website": "https://web.archive.org/web/20030418090130/http://phpinfo.ifrance.com:80/phpinfo/index.php?section=pages/pip&page=index&theme=marble1",
     "startDate": "2000",
     "endDate": "2004",
     "summary": "Mise en place d'un serveur web/ftp/mail personnel sous FreeBSD; création d'une bibliothèque PHP permettant de développer rapidement des sites web légers."
@@ -249,7 +255,7 @@
   {
     "organization": "Les 4'Arts",
     "position": "Webmaster",
-    "website": "http://4arts.tourmentine.com",
+    "website": "https://www.les4arts.fr",
     "startDate": "2017-01",
     "endDate": "2018-12",
     "summary": "Mise en place d'un CMS (PluXML) et création d'un thème dédié pour l'association Les 4'Arts"
@@ -326,10 +332,11 @@
       "keywords": [
         "MySQL/MariaDB",
         "PostgreSQL",
-        "sqlite",
+        "SQLite",
         "CouchDB",
         "MongoDB",
-        "InfluxDB"
+        "InfluxDB",
+        "Redis/Valkey"
       ]
     },
     {
@@ -338,7 +345,7 @@
         "Nagios/Icinga",
         "Centreon",
         "Zabbix",
-        "Collectd",
+        "collectd",
         "Grafana",
         "Prometheus",
         "Munin"
@@ -347,8 +354,8 @@
     {
       "name": "Web",
       "keywords": [
-        "Apache",
-        "Tomcat",
+        "Apache httpd",
+        "Apache Tomcat",
         "Nginx",
         "Squid",
         "Varnish",
@@ -362,7 +369,7 @@
         "QMail",
         "Postfix",
         "Sendmail",
-        "Courier",
+        "Courier IMAP",
         "Dovecot",
         "Spamassassin",
         "Rspamd",
@@ -412,7 +419,7 @@
       "keywords": [
         "CVS",
         "SVN",
-        "git"
+        "Git"
       ]
     },
     {
@@ -422,6 +429,7 @@
         "SaltStack",
         "Ansible",
         "Puppet",
+        "Foreman",
         "Jenkins"
       ]
     },
@@ -450,7 +458,8 @@
         "DHCP",
         "NIS/LDAP/Active Directory",
         "IPsec",
-        "OpenVPN"
+        "OpenVPN",
+        "ZFS"
       ]
     }
   ],
