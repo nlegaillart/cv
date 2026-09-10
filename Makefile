@@ -1,7 +1,7 @@
 all: build
 build:
 	hackmyresume convert cv-jrs.json cv-fresh.json
-	hackmyresume build cv-jrs.json to out/nlegaillart_cv.all -o myoptions.json -t jsonresume-theme-curzy-custom
+	hackmyresume build cv-jrs.json to out/nlegaillart_cv.all -o myoptions.json -t jsonresume-theme-curzy-custom -p weasyprint
 	hackmyresume build cv-jrs.json to out/nlegaillart_cv.txt -o myoptions.json 
 	hackmyresume build cv-jrs.json to out/nlegaillart_cv.md -o myoptions.json 
 	cd out && libreoffice --headless --convert-to doc:"MS Word 97" nlegaillart_cv.html
