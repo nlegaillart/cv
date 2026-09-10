@@ -532,6 +532,7 @@ ul.courses li:hover {
     height: 5px;
 }
 
+.level.notions .bar::after,
 .level.beginner .bar::after {
     background: #EB5F51;
     width: 2.5em;
@@ -542,12 +543,14 @@ ul.courses li:hover {
     width: 5em;
 }
 
+.level.courant .bar::after,
 .level.advanced .bar::after,
 .level.fluent .bar::after {
     background: #5CB85C;
     width: 7.5em;
 }
 
+.level.langue.maternelle .bar::after,
 .level.master .bar::after,
 .level.native.speaker .bar::after {
     background: #59C596;
